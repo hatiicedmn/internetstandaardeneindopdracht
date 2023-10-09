@@ -1,0 +1,297 @@
+body {
+    background: #FFF7E8;
+}
+
+ /* Style the top navigation bar */
+ .topnavleft {
+  overflow: hidden;
+  background-color: #694C00;
+  height: 100px;
+}
+
+/* Style the topnav links */
+.topnavleft a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 40px 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 50px;
+      
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* .h1page1{
+  font-size: 150%;
+} */
+
+.imagepage1{
+  display: flex;
+  justify-content: center;
+}
+
+.imageingredients{
+  width: 700px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .flex-container > div {
+    background-color: #C2E397;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    margin-top: 5%;
+    text-align: left;
+    font-size: 12;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+
+  /* titel bovenop pagina */
+  h1{
+    text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+
+
+
+/* page 2 */
+
+
+
+
+/* search engine */
+.boxContainer{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.boxContainer > div{
+  width: 90%;
+}
+
+.elementsContainer{
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+
+
+
+
+.search{
+  border: none;
+  height: 100%;
+  width: 132%;
+  padding: 5px 5px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-family: "nunito";
+  color: #424242;
+  font-weight: 500;
+}
+
+.search:focus{
+  outline: none;
+}
+
+.material-icons{
+  font-size: 26;
+  color: #2980b9;
+}
+
+
+.page2recipecontainers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.page2recipecontainers > div {
+  background-color: #C2E397;
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 12;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+
+/* pagina 3 */
+
+/* 2 containers upper page */
+.containerpage3{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.containerpage3 > div{
+  background-color: #C2E397;
+  width: 500px;
+  height: 270px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+
+/* container recipe steps  */
+.recipesteps{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.recipesteps > div{
+  width: 500px;
+  height: 400px;
+  margin-top: 30px;
+  background-color: #C2E397;
+  border-radius: 20px;
+}
+
+.page3images{
+  border-radius: 20px;
+  justify-content: center;
+}
+
+
+/* page 4 */
+
+
+.page4boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+
+.page4topimage{
+  display: flex;
+  justify-content: center;
+}
+
+.page4boxtopimage{
+  width: 230px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+.page4boxleft {
+  background-color: #C2E397;
+  width: 500px;
+  height: 500px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20;
+  border-radius: 20px;
+}
+
+.page4imagethai{
+  margin-top: 30px;
+  width: 350px;
+  height: 200px;
+}
+
+.page4boxright{
+  background-color: #C2E397;
+  width: 500px;
+  height: 500px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20;
+  border-radius: 20px;
+}
+
+
+  .all-browsers {
+    margin-top: 30px;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .browser {
+    background: #C2E397;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: lightgrey;
+  }
+
+
+  .socials{
+    width: 59px;
+    height: 59px;
+  }
